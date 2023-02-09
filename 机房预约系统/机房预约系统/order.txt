@@ -1,0 +1,1 @@
+data: interval:2 stuId:1 stuName:王喻杰 roomId:2 status:0 data: interval:2 stuId:2 stuName:李四 roomId:2 status:2 data: interval:2 stuId:3 stuName:王五 roomId:2 status:1 data: interval:2 stuId:1 stuName:王喻杰 roomId:3 status:-1 
