@@ -1,0 +1,10 @@
+function [x,y] = xy(a,b);%a为X，b为Y
+[n1,n2] = size(a);
+k1 = n1* sum((a.*b),1);
+k2 = sum(a,1)*sum(b,1); 
+k3 = n1 * sum((a.*a),1);
+k4 = sum(a,1)*sum(a,1);
+x = (k1-k2)/(k3-k4);
+k1 = sum((a.*a),1)*sum(b,1);
+k2 = sum(a,1)*sum((a.*b),1);
+y = (k1-k2)/(k3-k4);
